@@ -49,3 +49,17 @@ console.log("e > f" , e > f);
 console.log(e < f);
 console.log(e <= f);
 console.log ( e >= f);
+
+// Logical Operators
+
+let g = 6;
+let h = 7;
+
+let cond1 = g < h; // true
+let cond2 = g === 6;
+console.log("cond1 && cond2 =" , cond1 && cond2); /* if both conditions are true
+it displays true else false */
+console.log("cond1 && cond2 =" , cond1 || cond2); /* Even if one condition is
+true it will display true */
+console.log(!(a < b)); /* It displays the opposite like if a condition should
+come true it will display false and vice versa */
