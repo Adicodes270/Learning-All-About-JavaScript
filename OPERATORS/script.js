@@ -16,4 +16,22 @@ a++; // Is called increment and increases value by 1
 a--; // Is called decrement and decreases value by 1
 console.log(a);
 /* ++a and --a are also valid and are called pre increment/
-decrement and a++ and a-- are called post increment / decrement
+decrement and a++ and a-- are called post increment / decrement */
+// ++a is changed in the same line it was stated and a++ is changed later 
+// Same goes for a-- and --a
+
+// Assignment Operators 
+// = is a assignemnt operator which assigns values 
+
+let c = 5;
+let d = 2;
+
+c += 4;  // Short way of writing c = c + 4 which would be 9
+c -= 4; // Short way of writing c = c - 4
+c *= 4; // Short way of writing c = c * 4
+c /= 4; // Short way of writing c = c / 4
+c %= 4; // Short way of writing c = c % 4
+c **=4; // Short way of writing c = c**4
+console.log(c);
+
+// Comparsion Operators 
