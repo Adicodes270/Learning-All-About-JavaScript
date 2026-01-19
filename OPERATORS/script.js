@@ -35,3 +35,17 @@ c **=4; // Short way of writing c = c**4
 console.log(c);
 
 // Comparsion Operators 
+
+let e = 5;
+let f = 3;
+
+console.log("5 == 5" , e == f);  // true boolean value
+console.log(e != f); // false not equals to
+
+console.log("5 === 5" , e === f);  // strict version of == checks the type aswell needs to be same type
+console.log(e !== f); // strict version of !== checks the type aswell needs to be same type
+
+console.log("e > f" , e > f); 
+console.log(e < f);
+console.log(e <= f);
+console.log ( e >= f);
