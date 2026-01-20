@@ -71,3 +71,4 @@ statement is true it would execute first task and not true then second task */
 
 // Ternary operator can also be called as compact version of If else
 console.log(result);
+
