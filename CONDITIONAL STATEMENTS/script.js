@@ -4,10 +4,7 @@ const age = 18;
 
 if (age >= 18) {
     console.log("You can vote");
-}
-
-
-if (age < 18) {
+} else {
     console.log("You cannot vote");
 }
 
@@ -16,11 +13,37 @@ let color;
 
 if ( mode === "dark") {
     color = "black"
-}
-
-if ( mode === "light") {
+} else {
     color = "white"
 }
 
 
 console.log(color);
+
+let num = 16;
+
+if (num%2 === 0){
+    console.log("Even Number");
+} else {
+    console.log("Odd Number");
+}
+
+// syntax -> rules of programming
+// Good practice is in every line u should have ; at last
+
+let status;
+
+if (age < 18){
+    console.log("Junior");
+    status = "Junior";
+}
+else if (age > 50){
+    console.log('Senior');
+    status = "Senior";
+} else {
+    console.log("Adult");
+    status = "Adult";
+}
+
+if (age < 18) console.log(age); /* One liner only applicable if u want to do
+one task and is not recommended because its not readable */
