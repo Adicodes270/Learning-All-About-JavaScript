@@ -47,3 +47,5 @@ else if (age > 50){
 
 if (age < 18) console.log(age); /* One liner only applicable if u want to do
 one task and is not recommended because its not readable */
+
+

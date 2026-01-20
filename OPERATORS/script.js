@@ -63,3 +63,11 @@ console.log("cond1 && cond2 =" , cond1 || cond2); /* Even if one condition is
 true it will display true */
 console.log(!(a < b)); /* It displays the opposite like if a condition should
 come true it will display false and vice versa */
+
+// Ternary Operator
+
+let result = age >= 18 ? "Adult" : "Not Adult " /* Called ternary operator if 
+statement is true it would execute first task and not true then second task */
+
+// Ternary operator can also be called as compact version of If else
+console.log(result);
