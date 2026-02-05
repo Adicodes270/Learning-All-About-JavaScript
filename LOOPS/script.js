@@ -51,3 +51,23 @@ do {
 // At last when we write while after writing condition we have to add ;
 
 // For-of Loop
+
+// Used to loop arrays and strings
+
+let length = 0;
+let str = "Aditya";
+for ( let i of str) {
+    
+    console.log(i);
+    length++;
+}
+
+console.log("string length = ", length);
+
+let student = {
+    name: "Aditya Kumar",
+    age: 14,
+    package: 0,
+    isPass: true
+
+};
