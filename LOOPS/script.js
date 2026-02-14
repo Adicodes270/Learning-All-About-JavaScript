@@ -71,3 +71,41 @@ let student = {
     isPass: true
 
 };
+
+// for in loop 
+
+for ( let i in student){
+    console.log("key=", i , "value=" , student[i])
+}
+
+// Practice Question
+
+// 1.
+/* Print all even numbers from 0 to 100 */
+
+// for (let num=2; num<=100; num+=2){
+//     console.log(num)
+// }
+
+// OR
+
+// for (let num=0; num<=100; num++){
+//     if (num % 2 == 0 ){
+//         console.log("Num = ",num,"Even")
+//     }
+
+//     else {
+//         console.log("Num = ",num,"Odd")
+//     }
+// }
+
+// 2.
+
+const gameNum=25;
+let guessNum = prompt("Enter number:");
+
+while (gameNum!=guessNum){
+    guessNum = prompt("Wrong number:");
+}
+
+console.log("You guessed right number ")
